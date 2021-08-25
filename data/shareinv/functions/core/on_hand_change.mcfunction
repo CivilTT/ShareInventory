@@ -1,9 +1,13 @@
 tag @a add SI.tmp
 
 item replace entity @a armor.head from entity @s armor.head
+stopsound @a player 
 item replace entity @a armor.chest from entity @s armor.chest
+stopsound @a player 
 item replace entity @a armor.legs from entity @s armor.legs
+stopsound @a player 
 item replace entity @a armor.feet from entity @s armor.feet
+stopsound @a player 
 
 item replace entity @a container.0 from entity @s container.0
 item replace entity @a container.1 from entity @s container.1
