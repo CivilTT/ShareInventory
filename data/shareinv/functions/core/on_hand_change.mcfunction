@@ -1,13 +1,9 @@
 tag @a add SI.tmp
 
 item replace entity @a armor.head from entity @s armor.head
-stopsound @a player 
 item replace entity @a armor.chest from entity @s armor.chest
-stopsound @a player 
 item replace entity @a armor.legs from entity @s armor.legs
-stopsound @a player 
 item replace entity @a armor.feet from entity @s armor.feet
-stopsound @a player 
 
 item replace entity @a container.0 from entity @s container.0
 item replace entity @a container.1 from entity @s container.1
@@ -47,5 +43,15 @@ item replace entity @a container.34 from entity @s container.34
 item replace entity @a container.35 from entity @s container.35
 
 item replace entity @a weapon.offhand from entity @s weapon.offhand
+
+stopsound @a player item.armor.equip_chain
+stopsound @a player item.armor.equip_diamond
+stopsound @a player item.armor.equip_elytra
+stopsound @a player item.armor.equip_generic
+stopsound @a player item.armor.equip_gold
+stopsound @a player item.armor.equip_iron
+stopsound @a player item.armor.equip_leather
+stopsound @a player item.armor.equip_netherite
+stopsound @a player item.armor.equip_turtle
 
 tag @a remove SI.tmp
