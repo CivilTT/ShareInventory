@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "shareinv:core/on_entered"
+        "function": "shareinv:core/init"
     }
 }
