@@ -8,7 +8,7 @@ scoreboard players add @s SI.login 0
 execute if score @s SI.login matches 0 as @p[scores={SI.login=1}] run function shareinv:core/on_hand_change
 
 # ログイン時以外の場合は自分のインベントリをほかのプレイヤーにpush
-execute if score @s SI.login matches 0 if entity @s[tag=!SI.tmp] run function shareinv:core/on_hand_change
+execute if score @s SI.login matches 1 if entity @s[tag=!SI.tmp] run function shareinv:core/on_hand_change
 
 # ログインしていないプレイヤー含め全スコアボードのリセット
 scoreboard players reset * SI.login
