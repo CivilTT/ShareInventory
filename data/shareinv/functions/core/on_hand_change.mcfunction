@@ -32,6 +32,16 @@ item replace entity @a container.23 from entity @s container.23
 item replace entity @a container.24 from entity @s container.24
 item replace entity @a container.25 from entity @s container.25
 item replace entity @a container.26 from entity @s container.26
+item replace entity @a container.27 from entity @s container.27
+item replace entity @a container.28 from entity @s container.28
+item replace entity @a container.29 from entity @s container.29
+item replace entity @a container.30 from entity @s container.30
+item replace entity @a container.31 from entity @s container.31
+item replace entity @a container.32 from entity @s container.32
+item replace entity @a container.33 from entity @s container.33
+item replace entity @a container.34 from entity @s container.34
+item replace entity @a container.35 from entity @s container.35
+
 item replace entity @a weapon.offhand from entity @s weapon.offhand
 
 tag @a remove SI.tmp
