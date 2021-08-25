@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "entered":{
+            "trigger": "location",
+            "conditions": {
+
+            }
+        }
+    },
+    "rewards": {
+        "function": "shareinv:core/on_entered"
+    }
+}

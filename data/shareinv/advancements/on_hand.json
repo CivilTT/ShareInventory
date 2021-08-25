@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "hand":{
+            "trigger": "inventory_changed",
+            "conditions": {
+
+            }
+        }
+    },
+    "rewards": {
+        "function": "shareinv:core/on_hand"
+    }
+}
