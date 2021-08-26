@@ -1,5 +1,6 @@
 tag @a add SI.tmp
 
+
 item replace entity @a armor.head from entity @s armor.head
 item replace entity @a armor.chest from entity @s armor.chest
 item replace entity @a armor.legs from entity @s armor.legs
