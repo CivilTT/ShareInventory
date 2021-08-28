@@ -1,5 +1,5 @@
 # 初回ログイン時に起動し初期化
-execute unless data storage si: {version:1} run scoreboard objectives add SI.login dummy
-execute unless data storage si: {version:1} run data modify storage si: version set value 1
+execute unless data storage si: {version:2} run scoreboard objectives add SI.login dummy
+execute unless data storage si: {version:2} run data modify storage si: version set value 2
 
 # scoreboard objectives add death dummy
